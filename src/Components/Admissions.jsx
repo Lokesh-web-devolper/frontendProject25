@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { AiOutlineArrowLeft } from "react-icons/ai";
-import "./admissions.css";
+import "./Admissions.css";
 import {
   LineChart,
   Line,
