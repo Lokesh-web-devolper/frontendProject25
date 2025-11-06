@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&family=Monoton&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif !important;
+  font-size: .916rem;
+  color: #475569;
+  line-height: 1.5;
+}
+.main_container
+{
+  height: 100vh;
+  width: 100%;
+}
+.side_container1
+{
+  width: 70%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.side_container
+{
+  height: 100vh;
+  background-image: url('https://newerp.kluniversity.in/images/smalllogo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 250px;
+  max-width: 250px;
+  height: 250px;
+  max-height: 250px;
+}
+.text_container
+{
+  position: absolute;
+  bottom: 0;
+}
+.side_container_text
+{
+  color: #ffffff;
+}
+.main_card
+{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  background-color: #f4f4f4;
+  height: 100vh;
+}
+.cardElements
+{  
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.login_head 
+{
+  font-size: 2.0rem;
+}
+.input_elements
+{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 15px;
+}
+.card_image
+{
+  width: 60px;
+  height: auto;
+}
+.capcha
+{
+  height: 50px;
+  padding: 10px;
+  border: none;
+  font-size: 1.5rem;
+}
+.capcha::placeholder
+{
+  font-family: "Dancing Script", cursive;
+  color: #b9000e;
+}
+.anchor_elements
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 5px;
+  padding: 20px;
+}
+.anchor_elements a
+{
+  text-decoration: none;
+  color: #b9000e;
+}
+.img_element
+{
+  display: flex;
+  gap: 10px;
+}
+.clr_cont
+{
+  display: flex;
+  gap: 5px;
+}
+.color_container
+{
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  display: inline-block;
+}
+.clr1
+{
+  background-color: #1982c4;
+}
+.clr2
+{
+  background-color: #cb997e;
+}
+.clr3
+{
+  background-color: #aad576;
+}
+.clr4
+{
+  background-color: #9f8be8;
+}
+.clr5
+{
+  background-color: #2a2b47;
+}
+.clr6
+{
+  background-color: #a83aa8;
+}
+.nameError
+{
+  color: #b9000e;
+}
+.emailError
+{
+  color: #b9000e;
+}
+.CaptchaError
+{
+  color: #b9000e;
+}

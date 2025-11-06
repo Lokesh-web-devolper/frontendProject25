@@ -1,0 +1,256 @@
+.schedule-container {
+  padding: 2vw 1vw 0 1vw;
+  font-family: 'Poppins', Arial, sans-serif;
+  background: linear-gradient(120deg, #f8fafc 80%, #e9f3fd 100%);
+  min-height: 100vh;
+  color: #222e3a;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 22px;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header-left h1 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0;
+  color: #181c32;
+}
+.back-btn {
+  background: none; border: none; color: #333;
+  cursor: pointer; display: flex; align-items: center; gap: 5px;
+  padding: 2px 10px; font-size: 1rem;
+}
+.header-right { display: flex; align-items: center; gap: 12px; }
+.add-btn {
+  background: #a259fa;
+  color: #fff;
+  padding: 8px 22px;
+  border-radius: 7px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 6px 16px -8px #a259fa50;
+  font-size: 1rem;
+  transition: background .18s;
+}
+.add-btn:hover { background: #6c16c7; }
+.Sechudule_logout-btn {
+  background: #e2e8f0;
+  border: none;
+  border-radius: 8px;
+  color: #6c757d;
+  font-weight: 500;
+  padding: 8px 19px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: background .13s, color .13s;
+}
+.Sechudule_logout-btn:hover { background: #bfdbfe; color: #2c5282; }
+
+.view-switch { margin: 12px 0 4px 0; display: flex; gap: 13px; flex-wrap: wrap; }
+.view-switch button {
+  background: #f3f3f6;
+  border: none;
+  border-radius: 8px;
+  color: #4c47c4;
+  font-size: 1em;
+  font-weight: 500;
+  padding: 7px 15px;
+  cursor: pointer;
+  transition: all .13s;
+}
+.view-switch .active, .view-switch button.active, .view-switch button:hover { 
+  background: #151c35; color: #fff; 
+}
+
+.week-nav {
+  display: flex; align-items: center; gap: 10px; 
+  background: #fff; border-radius: 8px; 
+  box-shadow: 0 1px 8px #e0e7ef;
+  padding: 5px 16px;
+  font-size: 1.05em; margin-left: 1.4vw;
+}
+
+.week-view {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 28px -9px #b5c7fa42, 0 0.5px 3px #151c350d;
+  margin: 0 auto 32px;
+  padding: 14px 12px 10px 12px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 1.03em;
+  background: transparent;
+}
+
+th, td {
+  padding: 14px 7px;
+  text-align: center;
+  background: transparent;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+th {
+  background: #f3f6f9;
+  color: #656b7a;
+  font-size: 1.07em;
+  font-weight: 600;
+  border-bottom: 1.5px solid #f0f2f5;
+}
+.time-cell {
+  font-weight: 600;
+  background: #f4f7fe;
+  color: #303675 !important;
+  border-radius: 12px 0 0 12px;
+  min-width:82px;
+}
+
+.class-card {
+  background: #f1f6fd;
+  border-radius: 9px;
+  box-shadow: 0 2px 14px -8px #89baff44;
+  color: #131a2a;
+  font-weight: 600;
+  padding: 7px 3px;
+  font-size: 0.99em;
+  min-width: 88px;
+  margin: 1.5px auto;
+  transition: background .15s, box-shadow .15s;
+  border-left: 4.5px solid #a259fa33;
+}
+.class-card.blue    { background: #eaf2ff; border-left: 4.5px solid #52a1fe;}
+.class-card.green   { background: #e9faf1; border-left: 4.5px solid #4dc065;}
+.class-card.purple  { background: #f4ebfa; border-left: 4.5px solid #a259fa;}
+.class-card.orange  { background: #fff6eb; border-left: 4.5px solid #fead42;}
+.class-card.teal    { background: #e6faf8; border-left: 4.5px solid #5adbb5;}
+.class-card.gold    { background: #fffbe6; border-left: 4.5px solid #ffda47;}
+.class-card.gray    { background: #eef1f4; border-left: 4.5px solid #adb5bd;}
+
+.class-card:hover, .class-card:focus {
+  box-shadow: 0 4px 16px -3px #8364e67c;
+  background-color: #ede7ff;
+  color: #282158;
+}
+
+.class-card strong { font-size: 1.04em; font-weight: 700; color: #4c47c4;}
+.class-card .room-info { display: block; color: #3e4857; font-size: .97em; opacity: 0.7; }
+.class-card small { display: block; color: #878fa3; font-size: 0.938em;}
+
+tr, td { transition: background .14s; }
+tr:hover td { background: #f9fafc }
+tr:last-child td { border-bottom: none; }
+
+/* Room management section */
+.room-view {
+  margin-top: 22px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(278px, 1fr));
+  gap: 19px;
+}
+.room-card {
+  background-color: #f8fafd;
+  border-radius: 13px;
+  box-shadow: 0 6px 16px -8px #a259fa35;
+  padding: 18px;
+  font-size: 1.02em;
+  transition: box-shadow .14s, background .12s;
+}
+.room-card:hover {
+  background: #f2edfa;
+  box-shadow: 0 12px 32px -8px #a259fa38;
+}
+.room-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+.badge {
+  background: #4c47c4;
+  color: white;
+  padding: 3px 11px;
+  border-radius: 7px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.manage-btn {
+  margin-top: 10px;
+  background: #1976d2;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 9px 0;
+  border-radius: 7px;
+  font-weight: 600;
+  box-shadow: 0 1.5px 7px -2px #1976d231;
+  cursor: pointer;
+  transition: background .16s;
+}
+.manage-btn:hover { background: #181c32; }
+
+@media (max-width:900px) {
+  .schedule-container { padding: 9px 1vw;}
+  .view-switch button { font-size: .98em; padding: 7px 10px;}
+  table { min-width: 390px;}
+  th, td { font-size: .98em; padding: 8px 3px;}
+  .add-btn { padding: 8px 10px; }
+}
+@media (max-width:540px) {
+  th, td { padding: 3.5px 1px; min-width:44px;}
+  .header-left h1 { font-size: 1rem;}
+  .add-btn, .logout-btn { font-size: .96em; padding: 7px 8px;}
+}
+
+/* Bonus: subtle fade-in for user experience */
+.schedule-container, .week-view, .room-view { animation: fadeInSchedule .66s;}
+@keyframes fadeInSchedule { from { opacity: 0; transform: translateY(37px);} to { opacity:1; transform: none;}}
+.week-view table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 4px 28px -11px #b0c4e0;
+  overflow: hidden;
+  border: 2px solid #e9eefa;
+}
+
+th, td {
+  padding: 14px 7px;
+  text-align: center;
+  background: transparent;
+  font-weight: 500;
+  font-size: 1em;
+  border: 1px solid #e6eaf2;  /* <-- add this */
+}
+
+th {
+  background: #f3f6f9;
+  color: #656b7a;
+  font-size: 1.07em;
+  font-weight: 600;
+  border-bottom: 1.5px solid #f0f2f5;
+}
+.time-cell {
+  font-weight: 600;
+  background: #f4f7fe;
+  color: #303675 !important;
+  border-radius: 12px 0 0 12px;
+  min-width:82px;
+}
+

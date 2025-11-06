@@ -1,0 +1,211 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "2400033236",
+      "password": "AVI@123"
+    },
+    {
+      "id": 2,
+      "username": "2400033174",
+      "password": "LOK@123"
+    }
+  ],
+
+  "student": {
+    "id": "2400033236",
+    "name": "MOSAM AVINASH",
+    "email": "240003326@kluniversity.in",
+    "phone": "+1 (555) 123-4567",
+    "address": "KL UNIVERSITY",
+    "enrollmentDate": "September 2023",
+    "status": "Active",
+    "gpa": "3.85",
+    "year": "Sophomore",
+    "major": "Computer Science"
+  },
+
+  "courses": [
+    { "code": "CS-201", "name": "Data Structures", "grade": "A-", "credits": 3 },
+    { "code": "MATH-301", "name": "Calculus III", "grade": "B+", "credits": 4 },
+    { "code": "PHYS-201", "name": "Physics II", "grade": "A", "credits": 3 },
+    { "code": "ENG-102", "name": "Composition II", "grade": "A-", "credits": 3 }
+  ],
+
+  "achievements": [
+    { "title": "Dean's List", "date": "Fall 2023", "type": "Academic" },
+    { "title": "Hackathon Winner", "date": "Spring 2024", "type": "Competition" },
+    { "title": "CS Club President", "date": "2024-Present", "type": "Leadership" }
+  ],
+
+  "activities": [
+    { "date": "2024-01-15", "activity": "Enrolled in CS-201", "type": "Enrollment" },
+    { "date": "2024-01-10", "activity": "Updated contact information", "type": "Profile" },
+    { "date": "2023-12-20", "activity": "Completed Fall 2023 semester", "type": "Academic" },
+    { "date": "2023-12-15", "activity": "Received Dean's List recognition", "type": "Achievement" }
+  ],
+
+  "departments": [
+    { "name": "Computer Science", "courses": 12, "students": 180 },
+    { "name": "Mathematics", "courses": 8, "students": 145 },
+    { "name": "English", "courses": 6, "students": 120 },
+    { "name": "Physics", "courses": 5, "students": 95 }
+  ],
+
+  "courseManagement": [
+    {
+      "id": "CS-101",
+      "name": "Introduction to Computer Science",
+      "instructor": "Dr. Sarah Wilson",
+      "department": "Computer Science",
+      "credits": 3,
+      "enrolled": 45,
+      "capacity": 50,
+      "schedule": "MWF 10:00-11:00",
+      "status": "Active",
+      "rating": 4.8
+    },
+    {
+      "id": "MATH-201",
+      "name": "Calculus II",
+      "instructor": "Prof. Michael Chen",
+      "department": "Mathematics",
+      "credits": 4,
+      "enrolled": 38,
+      "capacity": 40,
+      "schedule": "TTh 2:00-3:30",
+      "status": "Active",
+      "rating": 4.5
+    },
+    {
+      "id": "ENG-102",
+      "name": "English Composition",
+      "instructor": "Dr. Emily Johnson",
+      "department": "English",
+      "credits": 3,
+      "enrolled": 25,
+      "capacity": 30,
+      "schedule": "MWF 9:00-10:00",
+      "status": "Active",
+      "rating": 4.7
+    },
+    {
+      "id": "PHYS-201",
+      "name": "Physics II",
+      "instructor": "Dr. Robert Davis",
+      "department": "Physics",
+      "credits": 4,
+      "enrolled": 22,
+      "capacity": 25,
+      "schedule": "TTh 11:00-12:30",
+      "status": "Active",
+      "rating": 4.3
+    },
+    {
+      "id": "cdwdw",
+      "name": "dwdw",
+      "instructor": "dd",
+      "department": "qd",
+      "credits": "",
+      "enrolled": "",
+      "capacity": "",
+      "schedule": "q",
+      "status": "Active",
+      "rating": ""
+    }
+  ],
+
+  "schedule": {
+  "Mon": {
+    "1": { "course": "24AD01HF-P", "room": "C324A", "instructor": "S-107" },
+    "2": { "course": "24AD01HF-P", "room": "C324A", "instructor": "S-107" },
+    "3": { "course": "24CS2202-L", "room": "R209A", "instructor": "S-107" },
+    "4": { "course": "24CS2202-L", "room": "R209A", "instructor": "S-107" },
+    "5": { "course": "24DCS01-S", "room": "C410", "instructor": "S-105" },
+    "6": { "course": "24DCS01-S", "room": "C410", "instructor": "S-105" },
+    "7": { "course": "24CS2006-L", "room": "C506", "instructor": "S-121" },
+    "8": { "course": "24SDCS01-L", "room": "C109", "instructor": "S-105" },
+    "15": { "course": "24UC0022-P", "room": "C304", "instructor": "S-102" },
+    "16": { "course": "24UC0022-P", "room": "A306", "instructor": "S-102" }
+  },
+  "Tue": {
+    "1": { "course": "24SC2006-S", "room": "C609", "instructor": "S-121" },
+    "2": { "course": "24SC2006-S", "room": "C609", "instructor": "S-121" },
+    "3": { "course": "24AD2001-L", "room": "C410", "instructor": "S-115" },
+    "4": { "course": "24AD2001-L", "room": "C410", "instructor": "S-115" },
+    "5": { "course": "24MT2012-T", "room": "C208", "instructor": "S-112" },
+    "6": { "course": "24MT2012-T", "room": "C208", "instructor": "S-112" },
+    "7": { "course": "24CS2202-L", "room": "C407", "instructor": "S-107" }
+  },
+  "Wed": {
+    "1": { "course": "24AD2103-L", "room": "C521A", "instructor": "S-101" },
+    "2": { "course": "24AD2103-L", "room": "C521A", "instructor": "S-101" },
+    "3": { "course": "24MT2012-L", "room": "C609", "instructor": "S-112" },
+    "4": { "course": "24MT2012-L", "room": "C609", "instructor": "S-112" },
+    "5": { "course": "24AD2001-P", "room": "C624B", "instructor": "S-115" },
+    "6": { "course": "24AD2001-P", "room": "C624B", "instructor": "S-115" },
+    "7": { "course": "24AD2103-P", "room": "C510", "instructor": "S-101" },
+    "8": { "course": "24AD01HF-L", "room": "C608", "instructor": "S-107" }
+  },
+  "Thu": {
+    "1": { "course": "24SC2006-S", "room": "C317B", "instructor": "S-121" },
+    "2": { "course": "24SC2006-P", "room": "C317B", "instructor": "S-107" },
+    "3": { "course": "24CS2202-P", "room": "C524", "instructor": "S-107" },
+    "4": { "course": "24CS2202-P", "room": "C524", "instructor": "S-107" },
+    "5": { "course": "24SC2006-L", "room": "C609", "instructor": "S-121" },
+    "6": { "course": "24AD01HF-L", "room": "C210", "instructor": "S-107" }
+  },
+  "Fri": {
+    "1": { "course": "24SP2114-S", "room": "VOLLEYBALL(M) COURTS", "instructor": "S-102" },
+    "2": { "course": "24SP2114-S", "room": "VOLLEYBALL(M) COURTS", "instructor": "S-102" },
+    "3": { "course": "24DCS01-S", "room": "C423", "instructor": "S-105" },
+    "4": { "course": "24AD2103-P", "room": "C217", "instructor": "S-101" },
+    "5": { "course": "24AD2103-P", "room": "C217", "instructor": "S-101" },
+    "6": { "course": "24AD2001-L", "room": "C307", "instructor": "S-115" },
+    "7": { "course": "24AD01HF-L", "room": "C623", "instructor": "S-107" }
+  }
+},
+  "rooms": [
+    { "id": "R209A", "capacity": 50, "type": "Lecture Hall", "equipment": ["Projector", "Whiteboard"] },
+    { "id": "C410", "capacity": 40, "type": "Classroom", "equipment": ["Whiteboard", "Computer"] },
+    { "id": "C407", "capacity": 25, "type": "Laboratory", "equipment": ["Lab Equipment", "Safety Gear"] },
+    { "id": "C109", "capacity": 35, "type": "Classroom", "equipment": ["Projector", "Audio System"] },
+    { "id": "A306", "capacity": 20, "type": "Art Studio", "equipment": ["Art Supplies", "Easels"] }
+  ],
+
+  "analytics": {
+    "metrics": [
+      { "title": "Total Students", "value": "1284", "change": "+12%" },
+      { "title": "Active Courses", "value": "89", "change": "+5%" },
+      { "title": "Average GPA", "value": "3.24", "change": "+0.12" },
+      { "title": "Revenue", "value": "$2.4M", "change": "+8%" }
+    ],
+    "enrollmentData": [
+      { "month": "Jan", "students": 120 },
+      { "month": "Feb", "students": 135 },
+      { "month": "Mar", "students": 148 },
+      { "month": "Apr", "students": 162 },
+      { "month": "May", "students": 175 },
+      { "month": "Jun", "students": 188 }
+    ],
+    "performanceData": [
+      { "subject": "Math", "average": 85 },
+      { "subject": "Science", "average": 78 },
+      { "subject": "English", "average": 92 },
+      { "subject": "History", "average": 81 },
+      { "subject": "Arts", "average": 88 }
+    ],
+    "departmentData": [
+      { "name": "Computer Science", "value": 35 },
+      { "name": "Engineering", "value": 25 },
+      { "name": "Business", "value": 20 },
+      { "name": "Arts", "value": 15 },
+      { "name": "Others", "value": 5 }
+    ],
+    "insights": [
+      "Student enrollment increased by 12% compared to last quarter",
+      "English department shows highest average performance at 92%",
+      "Computer Science remains the most popular department"
+    ]
+  }
+}
