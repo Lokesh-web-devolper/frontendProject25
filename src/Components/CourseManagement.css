@@ -165,7 +165,7 @@ body.dark-mode .search-icon { color: #63e6e6; }
   letter-spacing: .5px;
 }
 .tabs button.active {
-  color: #fff;
+  color: black;
   background: linear-gradient(90deg,#347cf6 87%,#63e6e6 100%);
   box-shadow: 0 2px 12px -7px #1965e4;
   border-bottom: 3px solid #63e6e6;

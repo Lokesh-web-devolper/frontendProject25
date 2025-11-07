@@ -15,22 +15,22 @@ import {
   HelpCircle,
   SunMoon
 } from 'lucide-react';
+import AnimatedKLUniversity from './AnimatedKLUniversity';
 
 export default function Dashboard() {
   const navigate = useNavigate();
 
   const [darkMode, setDarkMode] = useState(() => {
-    // Check localStorage, default to false for light mode
     return localStorage.getItem('theme') === 'dark';
   });
 
   useEffect(() => {
-    if (!darkMode) {
+    if (darkMode) {
       document.body.classList.add('dark-mode');
-      document.body.style.backgroundColor = '#121212';
+      document.body.style.background = '#121212';
     } else {
       document.body.classList.remove('dark-mode');
-      document.body.style.backgroundColor = '#f5f7fa';
+      document.body.style.background = 'linear-gradient(135deg, #73e6ff 0%, #a1c4fd 60%, #c084fc 100%)';
     }
     localStorage.setItem('theme', darkMode ? 'dark' : 'light');
   }, [darkMode]);
@@ -40,30 +40,14 @@ export default function Dashboard() {
   const handleLogout = () => navigate('/');
 
   const handleCardClick = (title) => {
-    if (title === 'Student Management') {
-      navigate('/student-profile');
-    } 
-    else if (title === 'Course Management') {
-      navigate('/course-management');
-    }
-    else if (title === 'Schedule Management') {
-    navigate('/schedule-management'); 
-    }
-    else if (title === 'Analytics') {
-    navigate('/analytics'); 
-    }
-    else if (title === 'Reports') {
-    navigate('/reports'); 
-    }
-    else if (title === 'Finance') {
-    navigate('/finance'); 
-    }
-    else if (title === 'Admissions') {
-    navigate('/admissions'); 
-    }
-    else if (title === 'Settings') {
-    navigate('/settings'); 
-    }
+    if (title === 'Student Management') navigate('/student-profile');
+    else if (title === 'Course Management') navigate('/course-management');
+    else if (title === 'Schedule Management') navigate('/schedule-management');
+    else if (title === 'Analytics') navigate('/analytics');
+    else if (title === 'Reports') navigate('/reports');
+    else if (title === 'Finance') navigate('/finance');
+    else if (title === 'Admissions') navigate('/admissions');
+    else if (title === 'Settings') navigate('/settings');
   };
 
   const modules = [
@@ -81,10 +65,13 @@ export default function Dashboard() {
     <div className="dashboard-container">
       <div className="dashboard-header">
         <h1>Dashboard</h1>
+        <div>
+          <img src="https://newerp.kluniversity.in/images/klerp1.png" className='logo_img'/>
+        </div>
         <div className="header-right">
           <button className="theme-toggle-btn" onClick={toggleTheme} aria-label="Toggle light/dark mode">
             <SunMoon size={20} />
-            {!(darkMode) ? 'Light Mode' : 'Dark Mode'}
+            {darkMode ? 'Dark Mode' : 'Light Mode'}
           </button>
           <Bell className="icon" />
           <HelpCircle className="icon" />

@@ -1,0 +1,23 @@
+@keyframes moveGradient {
+  from {
+    background-position: 0% 50%;
+  }
+  to {
+    background-position: 100% 50%;
+  }
+}
+
+.animated-gradient-text-small {
+  font-size: 28px;
+  font-weight: 600;
+  background: linear-gradient(90deg, #73e6ff, #a1c4fd, #c084fc);
+  background-size: 200% 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  animation: moveGradient 3s linear infinite;
+  margin-bottom: 6px;
+  display: inline-block;
+  letter-spacing: 1px;
+}
