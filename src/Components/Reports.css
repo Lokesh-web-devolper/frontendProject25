@@ -1,5 +1,3 @@
-/* External CSS for Reports.jsx */
-
 .reports-container {
   background: #f9fbfd;
   padding: 32px;
@@ -18,11 +16,46 @@
   margin-bottom: 24px;
   flex-wrap: wrap;
 }
-.back-btn { border: none; background: transparent; color: #475569; display: flex; align-items: center; gap: 6px; font-weight: 500; cursor: pointer; transition: color 0.2s; font-size: 16px; }
-.back-btn:hover { color: #0f172a; }
-.header-right { display: flex; align-items: center; gap: 12px; }
-.header-right select { border: 1px solid #e2e8f0; border-radius: 8px; padding: 8px 12px; background: #fff; color: #334155; font-size: 14px; }
-.report_logout-btn { background: #ef4444; border: none; color: white; padding: 8px 16px; border-radius: 8px; cursor: pointer; transition: background 0.2s; }
+.back-btn 
+{
+ border: none;
+ background: transparent; 
+ color: #475569; 
+ display: flex;
+ align-items: center;
+ gap: 6px;
+ font-weight: 500;
+ cursor: pointer;
+ transition: color 0.2s; 
+ font-size: 16px; 
+}
+.back-btn:hover
+ { 
+  color: #0f172a;
+ }
+.header-right
+ {
+   display: flex;
+   align-items: center;
+   gap: 12px; }
+.header-right select 
+{ border: 1px solid #e2e8f0; 
+  border-radius: 8px; 
+  padding: 8px 12px; 
+  background: #fff; 
+  color: #334155; 
+  font-size: 14px; 
+}
+.report_logout-btn 
+{ 
+  background: #ef4444; 
+  border: none; 
+  color: white; 
+  padding: 8px 16px; 
+  border-radius: 8px; 
+  cursor: pointer; 
+  transition: background 0.2s;
+}
 .report_logout-btn:hover { background: #dc2626; }
 
 .stats-grid {
